@@ -24,5 +24,5 @@ def div(a, b):
     return resultado
 
 def modulo(a):
-    pass
+    pass 
 
