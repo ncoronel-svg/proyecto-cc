@@ -1,28 +1,34 @@
 #hacer libreria de calculos suma, resta, division, multiplicacion, modulo
 
 
-def suma(a,b):
+def sumar(a,b):
     resultado = a + b
     return resultado
 
 
 
-def resta(a,b):
+def restar(a,b):
     resultado = a - b
     return resultado
 
 
 
-def multi(a, b):
+def multiplicacion(a, b):
     resultado = a * b
     return resultado
 
 
 
-def div(a, b):
+def division(a, b):
     resultado = a / b
     return resultado
 
 def modulo(a):
-    pass 
+    if a < 0 :
+        return a * -1
+    
+    return a
 
+
+
+# < > 

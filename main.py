@@ -1,4 +1,4 @@
-from aritmetica import sumar, restar, multiplicacion, division
+from aritmetica.aritmetica import sumar, restar, multiplicacion, division, modulo
 
 # estructura de inicio
 def main():
@@ -7,7 +7,7 @@ def main():
     print(restar(24, 67))
     print(multiplicacion(13, 57))
     print(division(98, 12))
-    
+    print(modulo(-4))
     
     pass
 
