@@ -140,3 +140,53 @@ def vocalescount(x):
 palabra24 = "ojala"
 
 print(vocalescount(palabra24))
+
+# 12. Eliminar todos los espacios de un string
+# input: "h o l a"
+# output: "hola"
+
+def eliminarEspacios(palabra):
+    palabra.strip()
+    palabra.lstrip()
+    palabra.rstrip()
+    #palabra.replace(" ","")
+
+palabra3 = "h o l a"
+
+print(eliminarEspacios(palabra3)) # no me salio
+
+# 13. Capitalizar la primera letra de cada palabra sin usar .title()
+# input: "hola mundo"
+# output: "Hola Mundo"
+
+def capPLetra(palabra):
+    return palabra.title()
+
+palabra23 = "hola mundo"
+
+print(capPLetra(palabra23))
+
+# 14. Encontrar el carácter que más se repite en un string
+# input: "aabbbbcc"
+# output: "b"
+
+def filtroLetras(palabra):
+    palabramod3 = str.maketrans(dict.fromkeys('acAC', ''))
+    palabracambiada = palabra25.translate(palabramod3)
+    return palabracambiada
+    
+
+palabra25 = "aabbbbcc"
+
+print(filtroLetras(palabra25))
+
+# 15. Dado un string, devolver otro sin caracteres repetidos
+# input: "programar"
+# output: "progma" (orden original sin duplicados)
+    
+def sinRepetir(palabra):
+ palabramod4 = "".join(dict.fromkeys(palabra))
+ return palabramod4
+
+palabra26 = "programar"
+print(sinRepetir(palabra26))
