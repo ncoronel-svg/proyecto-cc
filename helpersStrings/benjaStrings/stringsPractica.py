@@ -116,6 +116,20 @@ def unirGuiones(xxx):
 
 #print(unirGuiones(xxx))
 
+############################################################################
+
+######
+# HACER LA GUIA DE EJERCICIOS DE guiaEjercicios.md y luego venir a ARREGLAR LOS ERRORES DE ESTOS EJERCICIOS.
+######
+
+# RECORDATORIO: por cada ejercicio, se crea un archivo:  ejercicio1.py , 
+# ejercicio2.py, ejercicio3.py, ..., etc . no amontonar en un solo archivo
+
+# CREAR UNA CARPETA GUIA y ahi dentro ir GENERANDO LOS ARCHIVOS ejercicio1.py, ejercicio2.py, ... , etc
+
+############################################################################
+
+
 
 # 11. Contar cuántas vocales tiene un string
 # input: "programacion"
@@ -123,6 +137,27 @@ def unirGuiones(xxx):
 
 x = True
 count = 0
+
+############################################################################
+#CORREGIR ESTE EJERCICIO, PRACTICAR OPERADORES LOGICOS Y ARITMETICOS, BUSCAR... 
+# Y LUEGO APLICARLO AL EJERCICIO
+
+# LOS IF ELSE, NO SIRVEN EN ESTE CASO, DEBE CONTAR TODAS LAS VOCALES, 
+# y estas confundientdo el count() con la variable count = 0.
+
+# USAR NOMBRES DISTINTOS, SE PODRIA USAR, RESULTADO = 0, no count = 0, cambiar el valor del parametro llamarle palabra, es mas legible
+
+# recordar tmabien que si vos haces por ejemplos resultado +=  palabra.count('a') y replicas lo mismo solo cambiandole el valor por e i o u
+
+# ya con eso podes sumar,
+
+# entender el concepto de if else
+
+# si vos entras a una condicion, el resto de condiciones no va a entrar
+
+# HAY QUE APLICAR BUENAS PRACTICAS Y RESOLVER EL EJERCICIO CON COHERENCIA DE USO. REHACER
+############################################################################
+
 def vocalescount(x):
         if x.count("a"):
             count = +1
@@ -144,6 +179,12 @@ print(vocalescount(palabra24))
 # 12. Eliminar todos los espacios de un string
 # input: "h o l a"
 # output: "hola"
+
+############################################################################
+# CON CADA METODO ESTAS SIEMPRE ELIMINANDO ESPACIOS AL FINAL Y AL INICIO, REPETIRLOS 3 VECES DE DIFERENTE FORMA NO TIENE SENTIDO
+# NO CODEAR COSAS SIN SENTIDO, FIJARSE EN LA GUIA DE EJERCICIOS, EN TODO CASO ESTARIA BIEN SOLO APLICAR , STRIP(),
+# Y LUEGO BUSCAR CON CHAT GPT COMO SE USA EL REPLACE EN PYTHON Y APLICARLO ACA, PEDIR QUE TE LO EXPLIQUE
+############################################################################
 
 def eliminarEspacios(palabra):
     palabra.strip()
@@ -170,6 +211,10 @@ print(capPLetra(palabra23))
 # input: "aabbbbcc"
 # output: "b"
 
+############################################################################
+#EXPLICARME CON COMENTARIOS QUE QUIERE HACER ESTE CODIGO, NO SE ENTIENDE.
+############################################################################
+
 def filtroLetras(palabra):
     palabramod3 = str.maketrans(dict.fromkeys('acAC', ''))
     palabracambiada = palabra25.translate(palabramod3)
@@ -183,7 +228,9 @@ print(filtroLetras(palabra25))
 # 15. Dado un string, devolver otro sin caracteres repetidos
 # input: "programar"
 # output: "progma" (orden original sin duplicados)
-    
+
+
+
 def sinRepetir(palabra):
  palabramod4 = "".join(dict.fromkeys(palabra))
  return palabramod4
