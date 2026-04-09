@@ -288,6 +288,14 @@ x == 20
 
 1. Sistema de notas: si es mayor igual a 7 aprobado, si tiene 4 entre 6 recupera, si es menor a 4 desaprobado.
 
+2. crear un array de Autos ponerle nombres a gusto pero que sean 6 y 2 se repitan, luego condicionar si existe algun auto que se llame igual a lo ingresado por el usuario, se necesita conseguir eso que ingresa el usuario, verificar que primero la cantidad de autos sea 6 si es igual a 6 entonces entra a las siguientes condiciones
+
+- verifica si la palabra es igual a alguno de los 6 items que hay, verificar cada uno es decir son 6 condiciones
+
+3. Si x es mayor a h , y , d es un numero impar , o , x es menor que d
+- mostrar que se pudo entrar a la condicion con un print
+- se usan condiciones multiples es la idea de la practica, se puede hacer en un solo if( aca dentro ) sino se entiende revisar los primeros ejemplos de la etapa 2 que hay se muestra un ejemplo
+
 ### sino salen seguir con otro no hay problema, no perder mucho tiempo en estos
 2. Validar si un año es bisiesto (condiciones múltiples).
 
