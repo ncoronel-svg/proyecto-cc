@@ -4,6 +4,8 @@ numS = input("ingrese un numero : ")
 
 numI = int(numS)
 
+# ESTA BIEN PERO LO MISMO QUE EL EJERCICIO 2 NO ESTAMOS TRABAJANDO CON FUNCIONES
+
 def multiplicar(a,b):
     return a * b
 
