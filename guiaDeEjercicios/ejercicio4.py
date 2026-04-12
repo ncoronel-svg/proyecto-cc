@@ -16,8 +16,5 @@ lista1 = [1,2,3,4,5]
 
 # SI YA EXISTE UNA FUNCION NO VOLVER A CREARLA, Y SEGUIR LAS ETAPAS, ES ETAPAS DE VARIABLES NO ESTAMOS USANDO FUNCIONES ACA
 
-def tipo(a):
-    return type(a)
-
-print(tipo(lista1))
+print(type(lista1))
 #print(tipo(lista1(1))) no entendi como mostrar el tipo de valor del elemento

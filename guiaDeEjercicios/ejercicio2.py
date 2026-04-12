@@ -3,16 +3,12 @@
 num1 = int(input("ingrese numero: "))
 num2 = int(input("ingrese numero: "))
 
-# ESTO ESTA BIEN A NIVEL FUNCION PERO RECORDEMOS QUE EL EJERCICIO HABLA DE VARIABLES UNICAMENTE, ESTA MAL POR ESO
 
+suma = num1 + num2
 
-#### REHACER EL EJERCICIO, SEGUIR LA CONSIGNA, PIDE OBTENER 2 NUMEROS Y MOSTRAR LA SUMA DE LOS MISMOS, PENSAR EN COMO PODRIAS MOSTRAR LA SUMA
-
-# NO USAR FUNCIONES AUN, NO ES PARTE DE LA ETAPA
-
-def suma(a, b):
-    return  a + b
+#def suma(a, b):
+#   return  a + b
 
     
 
-#print (suma(num1, num2))
+print (suma)
